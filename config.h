@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID    0x4F53
 #define PRODUCT_ID   0x9A1C
 #define DEVICE_VER   0x0001
-#define MANUFACTURER Fe
+#define MANUFACTURER FeFe
 #define PRODUCT      feetpad
 
 /* key matrix size */
@@ -41,7 +41,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
 #define DIRECT_PINS { \
-    { D2, D4, C6, D7 }, \
+    { D2, D4, C6, D7,NO_PIN }, \
     { B6, B2, B5, B4, E6 } \
 }
 
